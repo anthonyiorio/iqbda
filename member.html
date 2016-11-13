@@ -4,6 +4,21 @@
     <meta charset="utf-8">
     <title>IQBDA</title>
     <link rel="stylesheet" type="text/css" href="base.css" media="screen" />
+    <style type="text/css">
+      label {
+        font-weight: bold;
+        display: block;
+        margin-top: 10px;
+      }
+      input[type=radio] + label, input[type=checkbox] + label {
+        font-weight: normal;
+        display:inline;
+      }
+      input[type=submit] {
+        display:block;
+        margin: 15px 0;
+      }
+    </style>
   </head>
   <body>
     <div id="page-wrapper">
@@ -11,6 +26,7 @@
         <img width="102" height="60" src="Skittles.gif" alt="logo">
         <h1>IQBDA</h1>
         <h2>The International QBASIC Developers Association</h2>
+        <nav id="user-links"><a href="login">Login</a></nav>
       </header>
 
       <nav id="navbar">
